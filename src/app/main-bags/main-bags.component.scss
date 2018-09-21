@@ -1,0 +1,177 @@
+.dash{
+    width: 4vw;
+    height: 0.2vh;
+    background-color:black;
+    position: relative;
+    margin-bottom: 12vh;
+    
+}
+
+
+section{
+
+    margin-top: 15vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
+
+
+    .productTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+
+        h1{
+            font-size: 1.875rem;
+            font-family: 'Old Standard TT', serif;
+            padding-bottom: 5vh;
+            font-weight: normal;
+        }
+    }
+
+    .mainFeatureProduct{
+        margin-top: 10vh;
+        height: 110vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 2vh;
+    
+        .main_name_and_price{
+    
+            width: 100%;
+            height: 7vh;
+            align-content: center;
+            padding-top: 3vh;
+            padding-bottom: 3vh;
+            text-align: center;
+            font-size: 1.25em;
+            font-family: 'Arapey', serif;
+            font-weight: lighter;
+
+            .product_name{
+                font-style: italic;
+            }
+
+            .price_font{
+                font-family: "Montserrat",sans-serif;
+                font-size: 1rem;
+                font-weight: lighter;
+            }
+            
+        }
+    
+        
+    
+        .large_main_container{
+            width: 48.75vw;
+            height:100vh;
+            position: relative;
+    
+            .background_large_container{
+                background-color: rgba($color: #F8F8F8, $alpha: 1);
+                width: 100%;
+                height: 100%;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: ease-in 2s;
+    
+                .canvas_lunch_bag{
+                    position: relative;
+                    background-size: contain;
+                    background-image: url('../../assets/canvas_lunch_bag.jpeg');
+                    width: 80%;
+                    height: 85%;
+                    background-repeat: no-repeat;
+                }
+
+                &:hover{
+                    opacity: .6;
+                }
+            }
+    
+        }
+    
+    
+    
+    
+        .subFeatureProduct{
+    
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            .sub_name_and_price{
+    
+                width: 100%;
+                height: 7vh;
+                align-content: center;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+                text-align: center;
+                font-size: 1.25em;
+                font-family: 'Arapey', serif;
+                font-weight: lighter;
+
+                .product_name{
+                    font-style: italic;
+                }
+    
+                .price_font{
+                    font-family: "Montserrat",sans-serif;
+                    font-size: 1rem;
+                    font-weight: lighter;
+                }
+            }
+    
+            .smaller_sub_container{
+                width:23.25vw;
+                height: 45vh;
+                position: relative;
+    
+                .background_small_container{
+                    background-color: rgba($color: #F8F8F8, $alpha: 1);
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: ease-in 2s;
+                    cursor: pointer;
+    
+                    .derby_tier_backpack{
+                        position: relative;
+                        background-size: contain;
+                        background-image: url('../../assets/derby_tier_backpack.jpeg');
+                        width: 60%;
+                        height: 85%;
+                        background-repeat: no-repeat;
+                    }
+    
+                    .dawson_trolley{
+                        position: relative;
+                        background-size: contain;
+                        background-image: url('../../assets/dawson_trolley.jpeg');
+                        width: 60%;
+                        height: 85%;
+                        background-repeat: no-repeat;
+                    }
+
+                    &:hover{
+                        opacity: .6;
+                    }
+    
+                    
+                }
+            }
+            
+    
+        }
+    }
+}

@@ -1,0 +1,296 @@
+.dash{
+    width: 4vw;
+    height: 0.2vh;
+    background-color:black;
+    position: relative;
+    margin-bottom: 5vh;
+    
+}
+
+section{
+
+    margin-top: 10vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
+    height: 380vh;
+
+    .women_title_nav{
+
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .productTitle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2vh;
+    
+            h1{
+                font-size: 1.875rem;
+                font-family: 'Old Standard TT', serif;
+                padding-bottom: 5vh;
+                font-weight: normal;
+            }
+    
+            
+        }
+    
+        .women_navigation_container{
+            width: 100%;
+            height: 15vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+    
+            .womens_navigation{
+    
+                width: 25vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin: 1.75vh 1vw 1.75vh 1vw;
+                font-family: 'Assistant', sans-serif;
+        
+                nav{
+                    position: relative;
+                    color: black;
+                    text-align: center;
+                    text-transform: uppercase;
+                    width: 10vw;
+                    height: 100%;
+                    font-size: .85rem;
+                    padding: 2.25vh 0 2.25vh 0;
+                    transform: scale(1.1,1);
+                    letter-spacing: 1px;
+                }
+        
+                nav:hover{
+                    cursor: pointer;
+                }
+        
+        
+            }
+        }
+
+        
+
+        
+
+    }
+    .women_item_container{
+
+        margin-top:15vh;
+        width: 100%;
+        height: 300vh;
+
+        .mainFeatureProduct{
+            height: 110vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 2vh;
+
+            .main_name_and_price{
+
+                width: 100%;
+                height: 7vh;
+                align-content: center;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+                text-align: center;
+                font-size: 1.25em;
+                font-family: 'Arapey', serif;
+                font-weight: lighter;
+
+                .product_name{
+                    font-style: italic;
+                }
+    
+                .price_font{
+                    font-family: "Montserrat",sans-serif;
+                    font-size: 1rem;
+                    font-weight: lighter;
+                }
+            }
+
+            
+
+            .large_main_container{
+                width: 48.75vw;
+                height:100vh;
+                position: relative;
+
+                .background_large_container{
+                    background-color: rgba($color: #F8F8F8, $alpha: 1);
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    transition: ease-in 2s;
+
+                    .whitney_pullover{
+                        position: relative;
+                        background-size: contain;
+                        background-image: url('../../assets/whitney_pullover.jpeg');
+                        width: 70%;
+                        height: 90%;
+                        background-repeat: no-repeat;
+                    }
+
+                    .moon_cycle{
+                        position: relative;
+                        background-size: contain;
+                        background-image: url('../../assets/moon_cycle.jpeg');
+                        width: 70%;
+                        height: 90%;
+                        background-repeat: no-repeat;
+                    }
+
+                    .lodge{
+                        position: relative;
+                        background-size: contain;
+                        background-image: url('../../assets/lodge.jpeg');
+                        width: 70%;
+                        height: 90%;
+                        background-repeat: no-repeat;
+                    }
+
+                    &:hover{
+                        opacity: .6;
+                    }
+
+
+
+                }
+
+                
+
+            }
+
+
+
+
+            .subFeatureProduct{
+
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                .sub_name_and_price{
+
+                    width: 100%;
+                    height: 7vh;
+                    align-content: center;
+                    padding-top: 3vh;
+                    padding-bottom: 3vh;
+                    text-align: center;
+                    font-size: 1.25em;
+                    font-family: 'Arapey', serif;
+                    font-weight: lighter;
+
+                    .product_name{
+                        font-style: italic;
+                    }
+        
+                    .price_font{
+                        font-family: "Montserrat",sans-serif;
+                        font-size: 1rem;
+                        font-weight: lighter;
+                    }
+                }
+
+                .smaller_sub_container{
+                    width:23.25vw;
+                    height: 45vh;
+                    position: relative;
+
+                    .background_small_container{
+                        background-color: rgba($color: #F8F8F8, $alpha: 1);
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: ease-in 2s;
+    
+                        .harriet_chambray{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/harriet_chambray.jpeg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+        
+                        .cydney_plaid{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/cydney_plaid.jpeg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+        
+                        .gertrude_candigan{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/gertrude_cardigan.jpeg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+        
+                        .chevron{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/chevron.jpeg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+
+                        .long_sleeve_swing_shirt{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/long_sleeve_swing_shirt.jpeg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+
+                        .guaranteed{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/guaranteed.jpeg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+
+                        &:hover{
+                            opacity: .6;
+                        }
+                    }
+                }
+                
+
+            }
+        }
+
+    
+    }
+    
+
+}

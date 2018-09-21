@@ -1,0 +1,488 @@
+
+
+/**********************/
+/* Global CSS section */
+/**********************/
+
+.dash{
+    width: 4vw;
+    height: 0.2vh;
+    background-color:black;
+    position: relative;
+    margin-bottom: 12vh;
+    
+}
+
+
+.mainSectionPadding{
+    padding-left: 13vw;
+    padding-right: 13vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+    /*********************/
+    /* Paragraph section */
+    /*********************/
+
+    .paragraphSection{
+
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        font-size: 1.12rem;
+        font-style: oblique;
+        letter-spacing: .5px;
+        line-height: 4vh;
+
+        a{
+            color: #a26b25;
+        }
+    }
+
+    /******************************/
+    /* Feature Collection section */
+    /******************************/
+
+    .featuredCollection{
+        
+        /*****************/
+        /* Title section */
+        /*****************/
+        .collectionTitle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                font-size: 2rem;
+                font-family: 'Times New Roman', Times, serif;
+                padding-bottom: 3vh;
+                font-weight: normal;
+            }
+           
+        }
+
+        /****************************************/
+        /* Feature Collection (contain) section */
+        /****************************************/
+
+        .itemsCollection{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative;
+            width: 100%;
+            height: 57vh;
+            margin-top: 2vh;
+            margin-bottom: 5.5vh;
+
+
+            .mens_frame{
+                width:35.5vw;
+                height: 56vh;
+                
+
+                .mens{
+                    background: url('../../assets/mens.jpg');
+                    background-size: 130%;
+                    position: relative;
+                    background-repeat: no-repeat;
+                    width: 35.5vw;
+                    height: 56vh;
+                    cursor: pointer;
+                    transition: all .5s ease-in-out;
+    
+                    h1{
+                        width: 35.5vw;
+                        height: 56vh;
+                        background-color: rgba($color: #000000, $alpha: .3);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        position: absolute;
+                        color: #fff;
+                        font-size: 2rem;
+                        font-style: oblique;
+                        font-family: 'Playfair Display', serif;
+                        font-weight: lighter;
+                        transition: all .8s;
+                    }
+
+                    h1:hover{
+                        background-color: rgba($color: #000000, $alpha: .5);
+                    }
+                }
+
+                .mens:hover{
+                    color: white;
+                    background-size: 135%;
+                    
+                }
+            }
+
+            
+            .women_frame{
+                width:35.5vw;
+                height: 56vh;
+                
+                .womens{
+                    background: url('../../assets/womens.jpg');
+                    position: relative;
+                    background-size: 115%;
+                    background-repeat: no-repeat;
+                    width: 35.5vw;
+                    height: 56vh;
+                    cursor: pointer;
+                    transition: all .5s ease-in-out;
+    
+                    h1{
+                        width: 35.5vw;
+                        height: 56vh;
+                        background-color: rgba($color: #000000, $alpha: 0.3);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        position: absolute;
+                        color: #fff;
+                        font-size: 2rem;
+                        font-style: oblique;
+                        font-family: 'Playfair Display', serif;
+                        font-weight: lighter;
+                        transition: all .8s;
+                    }
+
+                    h1:hover{
+                        background-color: rgba($color: #000000, $alpha: .5);
+                    }
+    
+                }
+                .womens:hover{
+                    color: white;
+                    background-size: 120%;
+                }
+            
+            }
+
+            
+
+            .bags{
+                background: url('../../assets/bags.jpg');
+                position: relative;
+                background-size: 110%;
+                background-repeat: no-repeat;
+                width: 23vw;
+                height: 50vh;
+                cursor: pointer;
+                transition: all .5s ease-in-out;
+
+                h1{
+                    width: 23vw;
+                    height: 50vh;
+                    background-color: rgba($color: #000000, $alpha: 0.3);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    position: absolute;
+                    color: #fff;
+                    font-size: 2rem;
+                    font-style: oblique;
+                    font-family: 'Playfair Display', serif;
+                    font-weight: lighter;
+                    transition: all .8s;
+                }
+                h1:hover{
+                    background-color: rgba($color: #000000, $alpha: .5);
+                }
+            }
+
+            .bags:hover{
+                color: white;
+                background-size: 115%;
+            }
+
+            .outdoor{
+                background: url('../../assets/outdoor.jpg');
+                position: relative;
+                background-size: 110%;
+                background-repeat: no-repeat;
+                width: 22.5vw;
+                height: 50vh;
+                cursor: pointer;
+                transition: all .8s ease-in-out;
+
+                h1{
+                    width: 22.5vw;
+                    height: 50vh;
+                    background-color: rgba($color: #000000, $alpha: 0.3);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    position: absolute;
+                    color: #fff;
+                    font-size: 2rem;
+                    font-style: oblique;
+                    font-family: 'Playfair Display', serif;
+                    font-weight: lighter;
+                    transition: all .8s;
+                }
+                h1:hover{
+                    background-color: rgba($color: #000000, $alpha: .5);
+                }
+            }
+
+            .outdoor:hover{
+                color: white;
+                background-size: 115%
+            }
+
+            .home{
+                background: url('../../assets/home.jpg');
+                position: relative;
+                background-size: 110%;
+                background-repeat: no-repeat;
+                width: 22.5vw;
+                height: 50vh;
+                cursor: pointer;
+                transition: all .8s ease-in-out;
+
+                h1{
+                    width: 22.5vw;
+                    height: 50vh;
+                    background-color: rgba($color: #000000, $alpha: 0.3);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    position: absolute;
+                    color: #fff;
+                    font-size: 2rem;
+                    font-style: oblique;
+                    font-family: 'Playfair Display', serif;
+                    font-weight: lighter;
+                    transition: all .8s;
+                }
+                h1:hover{
+                    background-color: rgba($color: #000000, $alpha: .5);
+                }
+            }
+
+            .home:hover{
+                color: white;
+                background-size: 115%;
+            }
+            
+        }
+        
+        
+
+    }
+
+
+    /***************************/
+    /* Feature product section */
+    /***************************/
+    .featuredProduct{
+        margin-top:5vh;
+        width: 100%;
+        height: 270vh;
+
+        .productTitle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2vh;
+
+            h1{
+                font-size: 2rem;
+                font-family: 'Times New Roman', Times, serif;
+                padding-bottom: 5vh;
+                font-weight: normal;
+            }
+        }
+
+        .mainFeatureProduct{
+
+            height: 110vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 2vh;
+
+            .main_name_and_price{
+
+                width: 100%;
+                height: 7vh;
+                align-content: center;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+                text-align: center;
+                font-size: 1.25em;
+                font-family: 'Arapey', serif;
+                font-weight: lighter;
+
+                .product_font{
+                    
+                    font-style: italic;
+                    
+                
+                }
+                .price_font{
+                    font-family: "Montserrat",sans-serif;
+                    font-size: 1rem;
+                    font-weight: lighter;
+                }
+    
+                
+            }
+
+            
+
+            .large_main_container{
+                width: 48.75vw;
+                height:100vh;
+                position: relative;
+
+                .background_large_container{
+                    background-color: rgba($color: #F8F8F8, $alpha: 1);
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    transition: ease-in 2s;
+                    .red_wing{
+                        position: relative;
+                        background-size: contain;
+                        background-image: url('../../assets/red_wing_iron-ranger_boot.jpg');
+                        width: 80%;
+                        height: 85%;
+                        background-repeat: no-repeat;
+                    }
+
+                    .ayres_chambray{
+                        position: relative;
+                        background-size: contain;
+                        background-image: url('../../assets/ayres_chambray.jpg');
+                        width: 80%;
+                        height: 85%;
+                        background-repeat: no-repeat;
+                    }
+                   
+                }
+                &:hover{
+                    .background_large_container {
+                        opacity: 0.6;
+                    }
+                }
+            }
+
+
+
+
+            .subFeatureProduct{
+
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                .sub_name_and_price{
+
+                    width: 100%;
+                    height: 7vh;
+                    align-content: center;
+                    padding-top: 3vh;
+                    padding-bottom: 3vh;
+                    text-align: center;
+                    font-size: 1.25em;
+                    font-family: 'Arapey', serif;
+                    font-weight: lighter;
+
+                    .product_font{
+                        font-style: italic;
+                    }
+
+                    .price_font{
+                        font-family: "Montserrat",sans-serif;
+                        font-size: 1rem;
+                        font-weight: lighter;
+                    }
+                }
+
+                .smaller_sub_container{
+                    width:23.25vw;
+                    height: 45vh;
+                    position: relative;
+
+                    .background_small_container{
+                        background-color: rgba($color: #F8F8F8, $alpha: 1);
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: ease-in 2s;
+    
+                        .scout_backpack{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/scout_backpack.jpg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+        
+                        .duckworth{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/duckworth_woodfill_jacket.jpg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+        
+                        .panel_camp{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/5_panel_camp_cap.jpg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+        
+                        .hudderton_backpack{
+                            position: relative;
+                            background-size: contain;
+                            background-image: url('../../assets/hudderton_backpack.jpg');
+                            width: 60%;
+                            height: 85%;
+                            background-repeat: no-repeat;
+                        }
+                        &:hover{
+                        opacity: 0.6;
+                        }
+                    }
+                    
+                }
+                
+
+            }
+        }
+
+    }
+}
